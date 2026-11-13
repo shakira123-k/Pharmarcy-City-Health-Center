@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" role="img" aria-label="Nurse reviewing patient readings on a tablet">
+<ellipse cx="300" cy="230" rx="250" ry="180" fill="#cfe8e1"/>
+<rect x="60" y="330" width="460" height="14" rx="7" fill="#0f2447" opacity=".12"/>
+<!-- plant -->
+<rect x="450" y="280" width="46" height="52" rx="8" fill="#c58a00"/><path d="M473 280c-30-30-34-70-10-96 8 34 26 52 10 96zM473 280c20-30 40-48 52-52-4 34-22 54-52 52z" fill="#2a8a2f"/>
+<!-- nurse -->
+<path d="M200 332v-92a60 60 0 0 1 120 0v92z" fill="#1546a8"/>
+<circle cx="260" cy="150" r="42" fill="#8d5a3b"/>
+<path d="M216 140c0-34 24-52 46-52s42 14 42 50c-14-20-34-24-50-24s-28 8-38 26z" fill="#0f2447"/>
+<rect x="244" y="188" width="32" height="26" fill="#8d5a3b"/>
+<path d="M232 214l28 36 28-36" fill="#fff"/>
+<rect x="248" y="268" width="24" height="6" rx="3" fill="#fff"/><rect x="257" y="259" width="6" height="24" rx="3" fill="#fff"/>
+<!-- arm and tablet -->
+<path d="M300 250c40 6 70 24 84 40" stroke="#1546a8" stroke-width="30" stroke-linecap="round" fill="none"/>
+<circle cx="388" cy="296" r="15" fill="#8d5a3b"/>
+<g transform="rotate(-8 400 250)"><rect x="330" y="190" width="170" height="116" rx="12" fill="#0f2447"/><rect x="340" y="200" width="150" height="96" rx="6" fill="#fff"/>
+<path d="M350 270l22-24 20 14 24-34 22 18 30-28" fill="none" stroke="#1546a8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="466" cy="230" r="5" fill="#d9482b"/><rect x="350" y="210" width="50" height="8" rx="4" fill="#d6deec"/><rect x="350" y="224" width="30" height="6" rx="3" fill="#d6deec"/></g>
+<!-- floating heart -->
+<g transform="translate(90 120)"><circle r="34" fill="#fff"/><path d="M0 18S-20 6-20-6a10 10 0 0 1 20-2 10 10 0 0 1 20 2C20 6 0 18 0 18z" fill="#d9482b"/></g>
+<g transform="translate(120 250)"><rect x="-44" y="-26" width="88" height="52" rx="12" fill="#fff"/><text x="0" y="-2" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="18" fill="#0f2447">120/80</text><text x="0" y="16" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#2a8a2f">stable</text></g>
+</svg>

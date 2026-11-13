@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home | Pharmacy City Health Center</title>
+<meta name="description" content="Mobile-based patient monitoring for Pharmacy City Health Center, Nakawa Division, Kampala.">
+<link rel="icon" href="assets/img/logo.jpeg" type="image/jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Figtree:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="" data-page="index">
+<a class="skip-link" href="#main">Skip to content</a>
+<div id="site-header"></div>
+<div class="toast-stack" id="toastStack" aria-live="polite"></div>
+<main id="main">
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <h1>Your check-up doesn’t have to end at the hospital gate.</h1>
+      <p class="lead">The platform lets discharged patients of Pharmacy City Health Center log their blood pressure, heart rate, temperature and blood sugar from a phone. Clinicians see every reading as it arrives and are alerted the moment one looks unsafe.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="login.html#register">Create a patient account</a>
+        <a class="btn btn-ghost" href="login.html#login">I’m a clinician</a>
+      </div>
+      <p class="hero-note">Built for outpatients in Nakawa Division, Kampala at Pharmacy City Health Center. Works on any smartphone browser.</p>
+    </div>
+
+    <div class="hero-visual" aria-label="Live demo of a vital sign reading">
+      <div class="phone">
+        <div class="phone-top"><span>Today, 08:15</span><span class="dot-live">Live</span></div>
+        <svg class="ecg" viewBox="0 0 320 90" aria-hidden="true">
+          <path class="ecg-line" d="M0 50 H60 L72 50 L80 20 L92 78 L102 8 L112 62 L120 50 H175 L187 50 L195 24 L207 74 L217 12 L227 58 L235 50 H320"/>
+        </svg>
+        <div class="phone-stats">
+          <div><small>Blood pressure</small><b id="demoBP">124/82</b></div>
+          <div><small>Heart rate</small><b id="demoHR">76 bpm</b></div>
+          <div><small>Temperature</small><b>36.7 °C</b></div>
+          <div><small>Glucose</small><b>5.8 mmol/L</b></div>
+        </div>
+        <div class="phone-status" id="demoStatus">Everything looks stable. See you at your next visit.</div>
+        <button class="btn btn-sm btn-ghost phone-btn" id="demoToggle" type="button">Try a risky reading</button>
+      </div>
+      <img class="hero-art" src="assets/img/hero.svg" alt="Illustration of a nurse reviewing a patient’s readings on a tablet" width="560" height="420">
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>What changes when monitoring moves to the phone</h2>
+    <div class="problem-grid">
+      <article class="problem">
+        <h3>Before: paper follow-up cards</h3>
+        <p>Patients travel to the clinic just to have a number written on a card. Cards get lost, and nobody sees a worsening reading until the next visit.</p>
+      </article>
+      <article class="problem problem-new">
+        <h3>With the platform</h3>
+        <p>Readings are saved to a central database in seconds. Unsafe values raise an alert on the clinician dashboard, so help can start the same day.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tint">
+  <div class="container">
+    <h2>Everything the clinic and the patient need</h2>
+    <div class="feature-list">
+      <a class="feature" href="patient.html#log">
+        <img src="assets/img/icon-vitals.svg" alt="" width="64" height="64">
+        <div><h3>Log vitals in under a minute</h3><p>Big number fields and a live safety check tell patients how a reading looks before they save it.</p></div>
+      </a>
+      <a class="feature" href="patient.html#medicine">
+        <img src="assets/img/icon-pills.svg" alt="" width="64" height="64">
+        <div><h3>Never miss a dose</h3><p>A daily medicine list with one-tap “taken” checks and a progress ring.</p></div>
+      </a>
+      <a class="feature" href="patient.html#chat">
+        <img src="assets/img/icon-chat.svg" alt="" width="64" height="64">
+        <div><h3>Ask your care team directly</h3><p>Send a symptom update to your assigned clinician and read their reply in the same place.</p></div>
+      </a>
+      <a class="feature" href="clinician.html#dashboard">
+        <img src="assets/img/icon-dash.svg" alt="" width="64" height="64">
+        <div><h3>A triage list that sorts itself</h3><p>Urgent patients rise to the top. The dashboard refreshes every 10 seconds without reloading.</p></div>
+      </a>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <h2>Project Operational Scope</h2>
+    <p>Targeting outpatient department focusiny on <strong>General internal Medicine</strong> and <strong>Chronic Disease Clinics</strong>to eliminate paper-based follow-up cards.</p>
+
+  </div>
+
+</section>
+<section class="section">
+  <div class="container">
+    <h2>How a reading travels</h2>
+    <ol class="steps">
+      <li><h3>Patient records</h3><p>Enters today’s readings and any symptoms.</p></li>
+      <li><h3>System checks</h3><p>Compares each value with clinician-set safe limits.</p></li>
+      <li><h3>Clinician is alerted</h3><p>Unsafe readings appear on the dashboard and in the alerts feed.</p></li>
+      <li><h3>Care continues</h3><p>The clinician replies, adjusts treatment, or invites the patient in.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="section section-tint">
+  <div class="container">
+    <h2>Pilot figures from the proposal</h2>
+    <div class="stat-row">
+      <div class="stat"><b data-count="150">0</b><span>registered outpatients targeted</span></div>
+      <div class="stat"><b data-count="35">0</b><span>healthcare professionals served</span></div>
+      <div class="stat"><b data-count="4">0</b><span>vital signs tracked every day</span></div>
+      <div class="stat"><b data-count="8">0</b><span>months of design and testing</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>See the platform from both sides</h2>
+    <p>Use the demo logins on the log-in page to explore the patient app and the clinician dashboard.</p>
+    <div class="btn-row center">
+      <a class="btn btn-light" href="login.html#login">Log in</a>
+      <a class="btn btn-outline-light" href="about.html">Read about the project</a>
+    </div>
+  </div>
+</section>
+
+</main>
+<div id="site-footer"></div>
+<script src="assets/js/store.js"></script>
+<script src="assets/js/layout.js"></script>
+<script src="assets/js/pages.js"></script>
+<script src="assets/js/chart.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

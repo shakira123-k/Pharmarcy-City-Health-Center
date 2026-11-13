@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Log in or join | Pharmacy City Health Center</title>
+<meta name="description" content="Mobile-based patient monitoring for Pharmacy City Health Center, Nakawa Division, Kampala.">
+<link rel="icon" href="assets/img/logo.jpeg" type="image/jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Figtree:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="auth-page" data-page="auth">
+<a class="skip-link" href="#main">Skip to content</a>
+<div id="site-header"></div>
+<div class="toast-stack" id="toastStack" aria-live="polite"></div>
+<main id="main">
+<section class="auth">
+  <div class="auth-side">
+    <img src="assets/img/logo.jpeg" alt="Pharmacy City Health Center logo" width="320" height="213" class="auth-logo">
+    <h2 id="authTitle">Good to see you again</h2>
+    <p>Patients log readings and read replies. Clinicians review the triage list.</p>
+  </div>
+  <div class="auth-card">
+    <div class="seg auth-tabs" role="tablist"><a href="#login" id="tabLogin" role="tab">Log in</a><a href="#register" id="tabRegister" role="tab">Create patient account</a></div>
+    <div id="panel-login">
+      <h1>Log in</h1>
+      <div id="loginError"></div>
+      <form id="loginForm" class="form" novalidate data-validate>
+      <label>Email<input type="email" name="email" required autocomplete="username"></label>
+      <label>Password
+        <span class="pw-wrap"><input type="password" name="password" required autocomplete="current-password" id="pw"><button type="button" class="pw-toggle" data-toggle-pw="pw">Show</button></span>
+      </label>
+      <button class="btn btn-primary btn-block" type="submit">Log in</button>
+    </form>
+      <div class="demo-box">
+      <b>Register accounts</b>
+      <button type="button" class="chip" data-fill="clinician@pchc.ug|Clinic@123">Clinician</button>
+      <button type="button" class="chip" data-fill="patient@pchc.ug|Patient@123">Patient</button>
+    </div>
+      <p class="muted"><a href="index.html">Back to home</a> · <a href="#" id="resetDemo">Reset demo data</a></p>
+    </div>
+    <div id="panel-register" hidden>
+      <h1>Create your patient account</h1>
+      <div id="registerErrors"></div>
+      <form id="registerForm" class="form" novalidate data-validate>
+      <label>Full name<input name="full_name" required></label>
+      <div class="row2">
+        <label>Email<input type="email" name="email" required></label>
+        <label>Phone<input name="phone" required placeholder="0772 123 456"></label>
+      </div>
+      <div class="row2">
+        <label>Date of birth<input type="date" name="dob" required></label>
+        <label>Gender<select name="gender"><option>Female</option><option>Male</option><option>Other</option></select></label>
+      </div>
+      <label>Condition being monitored
+        <select name="condition"><option>General follow-up</option><option>Hypertension</option><option>Type 2 diabetes</option><option>Post-operative recovery</option><option>Hypertension and diabetes</option></select>
+      </label>
+      <label>Password
+        <span class="pw-wrap"><input type="password" name="password" id="pw2" required minlength="8" autocomplete="new-password"><button type="button" class="pw-toggle" data-toggle-pw="pw2">Show</button></span>
+        <span class="meter" data-meter-for="pw2"><i></i></span><small class="meter-text" data-meter-text>Use 8+ characters with letters and numbers</small>
+      </label>
+      <button class="btn btn-primary btn-block" type="submit">Create account</button>
+    </form>
+    </div>
+  </div>
+</section>
+</main>
+<div id="site-footer"></div>
+<script src="assets/js/store.js"></script>
+<script src="assets/js/layout.js"></script>
+<script src="assets/js/pages.js"></script>
+<script src="assets/js/chart.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

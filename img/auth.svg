@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-label="Phone with a heartbeat and a shield">
+<circle cx="210" cy="160" r="140" fill="#ffffff14"/>
+<rect x="140" y="30" width="140" height="250" rx="24" fill="#fff"/><rect x="150" y="48" width="120" height="214" rx="14" fill="#e8f0fb"/>
+<path d="M162 130h24l10-20 16 40 10-20h34" fill="none" stroke="#d9482b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="164" y="64" width="92" height="22" rx="8" fill="#1546a8"/><rect x="164" y="180" width="92" height="12" rx="6" fill="#bcd6cf"/><rect x="164" y="202" width="64" height="12" rx="6" fill="#bcd6cf"/>
+<g transform="translate(295 205)"><path d="M0-40l38 14v28c0 26-18 42-38 52-20-10-38-26-38-52v-28z" fill="#8be07f"/><path d="M-14 4l11 11 20-24" fill="none" stroke="#0f2447" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g transform="translate(110 70)"><circle r="26" fill="#d9482b"/><path d="M0 12S-14 4-14-5a7 7 0 0 1 14-1 7 7 0 0 1 14 1C14 4 0 12 0 12z" fill="#fff"/></g>
+</svg>
