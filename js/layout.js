@@ -10,7 +10,7 @@
 
   const h = document.getElementById('site-header');
   if (h) h.outerHTML = `<header class="site-header"><div class="container nav-wrap">
-    <a class="brand" href="index.html"><img src="assets/img/logo.jpeg" alt="" width="81" height="54"><span>Pharmacy City <b>Health Center</b></span></a>
+    <a class="brand" href="index.html"><img src="img/logo.jpeg" alt="" width="81" height="54"><span>Pharmacy City <b>Health Center</b></span></a>
     <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="main-nav" id="mainNav" aria-label="Main">${nav}</nav></div></header>`;
 
