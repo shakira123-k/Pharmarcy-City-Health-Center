@@ -23,7 +23,7 @@
 
   const f = document.getElementById('site-footer');
   if (f) f.outerHTML = bar + `<footer class="site-footer"><div class="container footer-grid">
-    <div><a class="brand brand-light" href="index.html"><img class="footer-logo" src="assets/img/logo.jpeg" alt="" width="90" height="60"><span>Pharmacy City <b>Health Center</b></span></a>
+    <div><a class="brand brand-light" href="index.html"><img class="footer-logo" src="img/logo.jpeg" alt="" width="90" height="60"><span>Pharmacy City <b>Health Center</b></span></a>
     <p>Remote patient monitoring for Pharmacy City Health Center, Nakawa Division, Kampala.</p></div>
     <div><h4>Explore</h4><a href="index.html">Home</a><a href="about.html">About the project</a><a href="about.html#help">Help and FAQ</a><a href="about.html#contact">Contact</a></div>
     <div><h4>Get started</h4><a href="login.html#register">Patient sign-up</a><a href="login.html#login">Patient or clinician login</a></div>
